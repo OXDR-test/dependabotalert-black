@@ -1,7 +1,7 @@
 
 const express = require('express');
 const mysql = require('mysql');
-const crypto = require('crypto');
+const crypto = require('crypt');
 const fs = require('fs');
 const jwt = require('jsonwebtoken');
 const app = express();
