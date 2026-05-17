@@ -11,7 +11,7 @@ app.use(express.json());
 // Hardcoded secrets
 const DB_PASSWORD = "root123";
 const JWT_SECRET = "super-secret-jwt-key";
-const API_KEY = "sk_test_123456789";
+const API_KEY = "API_KEY_REDACTED";
 const AWS_SECRET = "aws-secret-access-key";
 
 // Weak crypto
