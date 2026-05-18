@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 // Hardcoded secret
-const API_KEY = "secret-api-key-12345";
+const API_KEY = "API_KEY_REDACTED";
 
 // Hardcoded DB credentials
 const db = mysql.createConnection({
